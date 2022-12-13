@@ -1,0 +1,8 @@
+welcome to,
+
+        |-----------------------|
+        | Banking software 1.0a |  
+        |-----------------------|       
+
+enter 'help' for manual
+
