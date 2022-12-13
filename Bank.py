@@ -110,7 +110,7 @@ class bank:
 
     def exit(self):
         print("Thank you for using.\nexiting...")
-        accountsf = open(p.path("data/accounts"),'w')
+        accountsf = open(p.path("data/accounts.json"),'w')
         self.accounts[self.user] = self.userdict
         json.dump(self.accounts,accountsf)
         accountsf.close()
